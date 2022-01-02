@@ -9,6 +9,9 @@ let navbar = document.querySelector(".navbar");
 window.onscroll = () =>{
     searchBtn.classList.remove("fa-times");
     searchBar.classList.remove("active");
+    menu.classList.remove("fa-times");
+    navbar.classList.remove("active");
+    loginForm.classList.remove("active");
 }
 
 menu.addEventListener("click", () =>{
@@ -28,8 +31,6 @@ formBtn.addEventListener("click", () =>{
 formClose.addEventListener("click", () =>{
     loginForm.classList.remove("active");
 });
-
-
 
 
 
